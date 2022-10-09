@@ -1,0 +1,97 @@
+.romb {
+    width: 600px;
+    height: 600px;
+    background: rgba(183, 199, 210, 1);
+/* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    margin-top: 300px;
+    margin-left: 1000px;
+}
+
+.redhead-girl {
+    position: absolute;
+    width: 830px;
+    height: 680px;
+    left: 580px;
+    top: 50px;
+    z-index: 1;
+}
+
+.redhead-girl img {
+    width: 100%;
+}
+
+.border-text {
+    position: absolute;
+    width: 450px;
+    height: 500px;
+    left: 280px;
+    top: 320px;
+    border: 2px solid black;
+}
+
+.services {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 220px;
+   margin-right: 100px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 50px;
+   font-size: 40px;
+}
+
+.yellow-girl {
+    position: absolute;
+    width: 400px;
+    left: 300px;
+    top: 1000px;
+    z-index: 1;
+}
+
+.yellow-girl img {
+    width: 100%;
+}
+
+.star {
+    position: absolute;
+    width: 800px;
+    left: 200px;
+    top: 1350px;
+} 
+
+.star img {
+    width: 100%;
+}
+
+.world {
+    position: absolute;
+    width: 800px;
+    left: 400px;
+    top: 1600px;
+    
+}
+
+.big-text{
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    font-size: 40px;
+    font-family: 'Peralta', cursive;
+    margin-top: 830px;
+    margin-left: 720px;
+}
